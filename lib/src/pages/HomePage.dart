@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
 
   List<Widget> _crearItemsCorto()
   {
-    var widgets = opciones.map((i){
+    return opciones.map((i){
 
       return Column(
         children: <Widget>[
@@ -54,8 +54,7 @@ class HomePage extends StatelessWidget {
       );
 
     }).toList();
-
-    return widgets;
+    
   }
 }
 
